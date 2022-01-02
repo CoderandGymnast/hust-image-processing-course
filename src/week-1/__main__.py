@@ -14,7 +14,7 @@ rgbImg = cv2.imread(FILE, cv2.IMREAD_COLOR)
 # Creating GUI window to display an image on screen
 # first Parameter is windows title (should be in string format)
 # Second Parameter is image array
-# cv2.imshow(NAME, img)
+# cv2.imshow(NAME, rgbImg)
  
 # # To hold the window on screen, we use cv2.waitKey method
 # # Once it detected the close input, it will release the control
@@ -29,7 +29,7 @@ rgbImg = cv2.imread(FILE, cv2.IMREAD_COLOR)
 # cv2.destroyAllWindows()
 
 # I.2. Convet image to Grayscale: 
-grayImg = cv2.cvtColor(rgbImg, cv2.COLOR_BGR2GRAY)
+# grayImg = cv2.cvtColor(rgbImg, cv2.COLOR_BGR2GRAY)
 # cv2.imshow(NAME,grayImg)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
@@ -64,7 +64,7 @@ def displayHist(file,mode,histSize):
 	plt.show()
 
 ## II.1. Display RGB Historgram:  
-# displayHist(FILE, "RGB",256)
+displayHist(FILE, "RGB",256)
 
 ## II.2. Display Grayscale Histogram:
 # displayHist(FILE,"",256)

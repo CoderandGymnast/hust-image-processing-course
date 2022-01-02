@@ -1,1 +1,1 @@
-python .\src\week-1\__main__.py
+python .\src\week-3\__main__.py
