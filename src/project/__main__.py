@@ -27,3 +27,10 @@ selected ksize: 7
 """
 
 # TODO: notebook.
+
+# Steps: 
+# gray
+# filter
+# threshold
+# connected
+
